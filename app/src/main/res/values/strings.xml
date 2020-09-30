@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Resistance Calculator</string>
+    <string name="banda1">Banda 1</string>
+    <string name="banda2">Banda 2</string>
+    <string name="multiplicador">Multiplicador</string>
+    <string name="tolerancia">Tolerancia</string>
+
+    <string-array name="coloresbanda1">
+        <item>Café</item>
+        <item>Rojo</item>
+        <item>Naranja</item>
+        <item>Amarillo</item>
+        <item>Verde</item>
+        <item>Azul</item>
+        <item>Violeta</item>
+        <item>Gris</item>
+        <item>Blanco</item>
+    </string-array>
+    <string-array name="coloresbanda2">
+        <item>Negro</item>
+        <item>Café</item>
+        <item>Rojo</item>
+        <item>Naranja</item>
+        <item>Amarillo</item>
+        <item>Verde</item>
+        <item>Azul</item>
+        <item>Violeta</item>
+        <item>Gris</item>
+        <item>Blanco</item>
+    </string-array>
+    <string-array name="colorestolerancia">
+        <item>Café</item>
+        <item>Rojo</item>
+        <item>Dorado</item>
+        <item>Plateado</item>
+
+    </string-array>
+</resources>
