@@ -1,8 +1,12 @@
+/*
+Calculadora de resistencia eléctrica app
+Diseñada por:
+            Alexis Berrio Arenas
+            Dario Fernando Arévalo
+ */
 package com.alexisberrio.resistancecalculator
 
 import android.os.Bundle
-import android.text.Editable
-import android.text.TextWatcher
 import android.view.View
 import android.widget.AdapterView
 import android.widget.ArrayAdapter
@@ -77,10 +81,10 @@ class MainActivity : AppCompatActivity(), AdapterView.OnItemSelectedListener {
         multiplicador = multiplicador_spinner.selectedItemPosition
         tolerancia = tolerancia_spinner.selectedItemPosition
 
-       // sumabandas = banda1.toString() + banda2.toString()
+        // sumabandas = banda1.toString() + banda2.toString()
 
-        when(multiplicador){
-            0 ->{
+        when (multiplicador) {
+            0 -> {
                 resultado = banda1.toString() + banda2.toString() + ohm
             }
             1 -> {
@@ -93,7 +97,7 @@ class MainActivity : AppCompatActivity(), AdapterView.OnItemSelectedListener {
                 resultado = banda1.toString() + banda2.toString() + kilo + ohm
             }
             4 -> {
-                resultado = banda1.toString()  + banda2.toString() + cero + kilo + ohm
+                resultado = banda1.toString() + banda2.toString() + cero + kilo + ohm
             }
             5 -> {
                 resultado = banda1.toString() + punto + banda2.toString() + mega + ohm
@@ -111,7 +115,7 @@ class MainActivity : AppCompatActivity(), AdapterView.OnItemSelectedListener {
                 resultado = banda1.toString() + banda2.toString() + giga + ohm
             }
         }
-        when(tolerancia){
+        when (tolerancia) {
             0 -> resultado += " ±1%"
             1 -> resultado += " ±2%"
             2 -> resultado += " ±5%"
